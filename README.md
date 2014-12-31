@@ -3,7 +3,7 @@ Building blocks of HTML5 as an open platform
 
 HTML5 adds many new <a href="http://en.wikipediorg/wiki/Syntax_(programming_languages)">syntactic</a> features such as <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> & <code>&lt;canvas&gt;</code> elements, as well as the integration of scalable vector graphics (SVG) content (that replaces the uses of generic <code>&lt;object&gt;</code> tags) and MathML for mathematical formulae. These features are designed to make it easy to include and handle multimedia and graphical content without having to resort to proprietary plugins and APIs such as Flash.
 
-Explain what "Semantic HTML" means.
+Semantic HTML
 ------
 
 The use of <a href="http://en.wikipediorg/wiki/HTML">HTML</a> markup to reinforce the meaning of the information in webpages.
@@ -27,7 +27,7 @@ DOCTYPE definition
 Standards mode vs quirks mode
 ------
 
- In quirks mode, layout emulates nonstandard behaviour in Navigator 4 and Internet Explorer 5 for Windows. In almost standards mode (or strict mode), there are only a very small number of quirks implemented. In full standards mode, the behaviour is described by the HTML and CSS specifications.
+In quirks mode, layout emulates nonstandard behaviour in Navigator 4 and Internet Explorer 5 for Windows. In almost standards mode (or strict mode), there are only a very small number of quirks implemented. In full standards mode, the behaviour is described by the HTML and CSS specifications.
 
 XHTML limitations
 ------
