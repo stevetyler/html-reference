@@ -6,9 +6,10 @@
 1. [New HTML5 elements](#newelements)
 1. [Elements removed from HTML5](#removedelements)
 1. [HTML data attributes](#dataattributes)
-
-
-
+1. [New HTML5 elements](#newelements)
+1. [Elements removed from HTML5](#removedelements)
+1. [HTML data attributes](#dataattributes)
+1. [DOCTYPE definition](#doctype)
 
 
 <a name='blocks'>Building blocks of HTML5 as an open platform<a/>
@@ -22,7 +23,7 @@ HTML5 adds many new syntactic features such as <code>&lt;video&gt;</code>, <code
 The use of <a href="http://en.wikipediorg/wiki/HTML">HTML</a> markup to reinforce the meaning of the information in webpages.
 e.g. <code>&lt;section&gt;, &lt;article&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;audio&gt;, &lt;video&gt;</code>
 
-<a name='newelements'New HTML5 elements<a/>
+<a name='newelements'>New HTML5 elements<a/>
 ------
 
 <code>&lt;article&gt;, &lt;aside&gt;, &lt;bdi&gt;, &lt;command&gt;, &lt;details&gt;, &lt;figure&gt;, &lt;figcaption&gt;, &lt;summary&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;hgroup&gt;, &lt;mark&gt;, &lt;meter&gt;, &lt;nav&gt;, &lt;progress&gt;, &lt;ruby&gt;, &lt;rt&gt;, &lt;section&gt;, &lt;time&gt;,</code> and <code>&lt;wpr&gt;.</code>
@@ -41,7 +42,7 @@ Custom data attributes are intended to store custom data private to the page or 
 	&lt;source src="track1.mp3"type ="audio/mpeg"data-duration="1min5secs" data-tempo="125bpm"data-artist="The Beatles"/&gt;
 &lt;/audio&gt;</code></pre>
 
-DOCTYPE definition
+<a name='doctype'>DOCTYPE definition<a/>
 ------
 
  Including <code>&lt;!DOCTYPE html&gt;</code> will cause browsers that don't presently support HTML5 to enter into standards mode, meaning they'll interpret the long-established parts of HTML while ignoring the new features they don't support. The DOCTYPE must be at the beginning of the HTML document, otherwise quirks mode will be triggered in IE9 or below.
