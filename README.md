@@ -52,14 +52,13 @@ Designing & developing for multilingual sites
 -------
 
 * Consider length of words as the font size may not be suitable for all languages
+* Use unicode &lt;meta charset=”UTF-8”&gt;
 * Use the lang pseudo class e.g.
 
 <pre><code>:lang(en) {font-size: 85%; font-family: arial, verdana, sans-serif;}
 
 :lang(zh) {font-size: 125%; font-family: helvetica, verdana, sans-serif;}
 </pre></code>
-
-* Use unicode &lt;meta charset=”UTF-8”&gt;
 
 HTML data attributes
 ------
