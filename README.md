@@ -1,4 +1,4 @@
-Building Blocks of HTML5 as an Open Platform
+Building blocks of HTML5 as an open platform
 -------
 
 HTML5 adds many new <a href="http://en.wikipediorg/wiki/Syntax_(programming_languages)">syntactic</a> features such as <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> & <code>&lt;canvas&gt;</code> elements, as well as the integration of scalable vector graphics (SVG) content (that replaces the uses of generic <code>&lt;object&gt;</code> tags) and MathML for mathematical formulae. These features are designed to make it easy to include and handle multimedia and graphical content without having to resort to proprietary plugins and APIs such as Flash.
@@ -14,12 +14,12 @@ New HTML5 elements
 
 <code>&lt;article&gt;, &lt;aside&gt;, &lt;bdi&gt;, &lt;command&gt;, &lt;details&gt;, &lt;figure&gt;, &lt;figcaption&gt;, &lt;summary&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;hgroup&gt;, &lt;mark&gt;, &lt;meter&gt;, &lt;nav&gt;, &lt;progress&gt;, &lt;ruby&gt;, &lt;rt&gt;, &lt;section&gt;, &lt;time&gt;,</code> and <code>&lt;wpr&gt;.</code>
 
-Elements Removed from HTML5
+Elements removed from HTML5
 ------
 
  <code>&lt;frame&gt;</code> and <code>&lt;frameset&gt;</code> have been eliminated. Other elements that are no longer supported include: <code>&lt;noframe&gt;, &lt;applet&gt;, &lt;bigcenter&gt; </code>and <code>&lt;basefront&gt;.</code>
 
-DOCTYPE Definition
+DOCTYPE definition
 ------
 
  Including <code>&lt;!DOCTYPE html&gt;</code> will cause browsers that don't presently support HTML5 to enter into standards mode, meaning they'll interpret the long-established parts of HTML while ignoring the new features they don't support. The DOCTYPE must be at the beginning of the HTML document, otherwise quirks mode will be triggered in IE9 or below.
@@ -29,12 +29,12 @@ Standards Mode vs Quirks Mode
 
 In quirks mode, layout emulates nonstandard behaviour in Navigator 4 and Internet Explorer 5 for Windows. In almost standards mode (or strict mode), there are only a very small number of quirks implemented. In full standards mode, the behaviour is described by the HTML and CSS specifications.
 
-XHTML Limitations
+XHTML limitations
 ------
 
 XHTML has poor browser support. Internet Explorer and a number of other user agents cannot parse XHTML as XML. The W3C <a href="http://www.w3.org/TR/xhtml-media-types/#media-types">recommends only sending xhtml to browsers that specifically declare support</a> in the HTTP Accept header and ignoring those browsers that don't specifically declare support. Note that headers aren't always reliable and it has been known to cause issues with caching.
 
-Serving a Page with Content in Multiple Languages
+Serving a page with content in multiple languages
 ------
 
 * Properly sort strings based on locale
@@ -48,7 +48,7 @@ Serving a Page with Content in Multiple Languages
 
 <a title="http://stackoverflow.com/questions/3876213/design-patterns-for-multiple-language-website" href="http://stackoverflow.com/questions/3876213/design-patterns-for-multiple-language-website">http://stackoverflow.com/questions/3876213/design-patterns-for-multiple-language-website</a>
 
-Designing & Developing for Multilingual Sites
+Designing & developing for multilingual sites
 -------
 
 * Consider length of words as the font size may not be suitable for all languages
@@ -61,7 +61,7 @@ Designing & Developing for Multilingual Sites
 
 * Use unicode &lt;meta charset=”UTF-8”&gt;
 
-HTML Data Attributes
+HTML data attributes
 ------
 
 Custom data attributes are intended to store custom data private to the page or application, for which there are no more appropriate attributes or elements.
@@ -81,7 +81,7 @@ HTML5 web storage is a generic term for the new client-side data storage options
 
 <a title="http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/" href="http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/">http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/</a>
 
-Explain the Difference between 'GET' & 'POST'
+Explain the difference between 'GET' & 'POST'
 ------
 
 POST requests are used to send data to the server to be processed in some way, like by a CGI script. GET requests include all required data in the URL. A POST request is different from a GET request in the following ways:
