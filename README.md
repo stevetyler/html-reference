@@ -10,7 +10,13 @@
 1. [Elements removed from HTML5](#removedelements)
 1. [HTML data attributes](#dataattributes)
 1. [DOCTYPE definition](#doctype)
-
+1. [Standards mode vs quirks mode](#standards)
+1. [XHTML Limitations](#XHTML)
+1. [Serving a page with content in multiple languages](#multiplelang)
+1. [Designing & developing for multilingual sites](#multilingual)
+1. [Cookies, sessionStorage and localStorage](#cookies)
+1. [The difference between 'get' & 'post'](#get)
+1. [HTML5 Boilerplate files : humans.txt, 404 page, robots.txt, .htaccess](#boilerplate)
 
 <a name='blocks'>Building blocks of HTML5 as an open platform<a/>
 -------
@@ -47,17 +53,17 @@ Custom data attributes are intended to store custom data private to the page or 
 
  Including <code>&lt;!DOCTYPE html&gt;</code> will cause browsers that don't presently support HTML5 to enter into standards mode, meaning they'll interpret the long-established parts of HTML while ignoring the new features they don't support. The DOCTYPE must be at the beginning of the HTML document, otherwise quirks mode will be triggered in IE9 or below.
 
-Standards mode vs quirks mode
+<a name='standards'>Standards mode vs quirks mode<a/>
 ------
 
 In quirks mode, layout emulates nonstandard behaviour in Navigator 4 and Internet Explorer 5 for Windows. In almost standards mode (or strict mode), there are only a very small number of quirks implemented. In full standards mode, the behaviour is described by the HTML and CSS specifications.
 
-XHTML limitations
+<a name='XHTML'>XHTML limitations<a/>
 ------
 
 XHTML has poor browser support. Internet Explorer and a number of other user agents cannot parse XHTML as XML. The W3C <a href="http://www.w3.org/TR/xhtml-media-types/#media-types">recommends only sending xhtml to browsers that specifically declare support</a> in the HTTP Accept header and ignoring those browsers that don't specifically declare support. Note that headers aren't always reliable and it has been known to cause issues with caching.
 
-Serving a page with content in multiple languages
+<a name'multiplelang'>Serving a page with content in multiple languages<a/>
 ------
 
 * Properly sort strings based on locale
@@ -71,7 +77,7 @@ Serving a page with content in multiple languages
 
 <a title="http://stackoverflow.com/questions/3876213/design-patterns-for-multiple-language-website" href="http://stackoverflow.com/questions/3876213/design-patterns-for-multiple-language-website">http://stackoverflow.com/questions/3876213/design-patterns-for-multiple-language-website</a>
 
-Designing & developing for multilingual sites
+<a name='multilingual'>Designing & developing for multilingual sites<a/>
 -------
 
 * Consider length of words as the font size may not be suitable for all languages
@@ -83,7 +89,7 @@ Designing & developing for multilingual sites
 :lang(zh) {font-size: 125%; font-family: helvetica, verdana, sans-serif;}
 </pre></code>
 
-Cookies, sessionStorage and localStorage.
+<a name='cookies'>Cookies, sessionStorage and localStorage<a/>
 ------
 
 HTML5 web storage is a generic term for the new client-side data storage options.
@@ -94,7 +100,7 @@ HTML5 web storage is a generic term for the new client-side data storage options
 
 <a title="http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/" href="http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/">http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/</a>
 
-The difference between 'get' & 'post'
+<a name='get'>The difference between 'get' & 'post'<a/>
 ------
 
 POST requests are used to send data to the server to be processed in some way, like by a CGI script. GET requests include all required data in the URL. A POST request is different from a GET request in the following ways:
@@ -106,7 +112,7 @@ POST requests are used to send data to the server to be processed in some way, l
 
 <a title="http://www.diffen.com/difference/GET_(HTTP)_vs_POST_(HTTP)" href="http://www.diffen.com/difference/GET_(HTTP)_vs_POST_(HTTP">http://www.diffen.com/difference/GET_(HTTP)_vs_POST_(HTTP)</a>
 
-HTML5 Boilerplate files : humans.txt, 404 page,  robots.txt, .htaccess
+<a name='boilerplate'>HTML5 Boilerplate files : humans.txt, 404 page, robots.txt, .htaccess<a/>
 ------
 
 Humans.txt is a text file that contains information about the people who created the site. <a title="http://humanstxt.org/Standard.html" href="http://humanstxt.org/Standard.html">http://humanstxt.org/Standard.html</a>
