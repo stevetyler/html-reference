@@ -80,7 +80,7 @@ HTML5 web storage is a generic term for the new client-side data storage options
 
 <a title="http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/" href="http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/">http://www.webdirections.org/blog/webstorage-persistent-client-side-data-storage/</a>
 
-Explain the difference between 'GET' & 'POST'
+The difference between 'get' & 'post'
 ------
 
 POST requests are used to send data to the server to be processed in some way, like by a CGI script. GET requests include all required data in the URL. A POST request is different from a GET request in the following ways:
