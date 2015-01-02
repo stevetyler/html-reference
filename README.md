@@ -1,25 +1,38 @@
-Building blocks of HTML5 as an open platform
+<a name='toc'>Table of Contents</a>
+------
+
+1. [Building blocks of HTML5 as an open platform](#blocks)
+1. [Semantic HTML](#semantic)
+1. [New HTML5 elements](#newelements)
+1. [Elements removed from HTML5](#removedelements)
+1. [HTML data attributes](#dataattributes)
+
+
+
+
+
+<a name='blocks'>Building blocks of HTML5 as an open platform<a/>
 -------
 
 HTML5 adds many new syntactic features such as <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> & <code>&lt;canvas&gt;</code> elements, as well as the integration of scalable vector graphics (SVG) content (that replaces the uses of generic <code>&lt;object&gt;</code> tags) and MathML for mathematical formulae. These features are designed to make it easy to include and handle multimedia and graphical content without having to resort to proprietary plugins and APIs such as Flash.
 
-Semantic HTML
+<a name='semantic'>Semantic HTML<a/>
 ------
 
 The use of <a href="http://en.wikipediorg/wiki/HTML">HTML</a> markup to reinforce the meaning of the information in webpages.
 e.g. <code>&lt;section&gt;, &lt;article&gt;, &lt;nav&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;audio&gt;, &lt;video&gt;</code>
 
-New HTML5 elements
+<a name='newelements'New HTML5 elements<a/>
 ------
 
 <code>&lt;article&gt;, &lt;aside&gt;, &lt;bdi&gt;, &lt;command&gt;, &lt;details&gt;, &lt;figure&gt;, &lt;figcaption&gt;, &lt;summary&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;hgroup&gt;, &lt;mark&gt;, &lt;meter&gt;, &lt;nav&gt;, &lt;progress&gt;, &lt;ruby&gt;, &lt;rt&gt;, &lt;section&gt;, &lt;time&gt;,</code> and <code>&lt;wpr&gt;.</code>
 
-Elements removed from HTML5
+<a name='removedelements'>Elements removed from HTML5<a/>
 ------
 
  <code>&lt;frame&gt;</code> and <code>&lt;frameset&gt;</code> have been eliminated. Other elements that are no longer supported include: <code>&lt;noframe&gt;, &lt;applet&gt;, &lt;bigcenter&gt; </code>and <code>&lt;basefront&gt;.</code>
 
-HTML data attributes
+<a name='dataattributes'>HTML data attributes<a/>
 ------
 
 Custom data attributes are intended to store custom data private to the page or application, for which there are no more appropriate attributes or elements.
