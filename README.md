@@ -11,7 +11,7 @@
 1. [HTML data attributes](#dataattributes)
 1. [DOCTYPE definition](#doctype)
 1. [Standards mode vs quirks mode](#standards)
-1. [XHTML Limitations](#XHTML)
+1. [XHTML limitations](#XHTML)
 1. [Serving a page with content in multiple languages](#multiplelang)
 1. [Designing & developing for multilingual sites](#multilingual)
 1. [Cookies, sessionStorage and localStorage](#cookies)
