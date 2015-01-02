@@ -19,6 +19,15 @@ Elements removed from HTML5
 
  <code>&lt;frame&gt;</code> and <code>&lt;frameset&gt;</code> have been eliminated. Other elements that are no longer supported include: <code>&lt;noframe&gt;, &lt;applet&gt;, &lt;bigcenter&gt; </code>and <code>&lt;basefront&gt;.</code>
 
+HTML data attributes
+------
+
+Custom data attributes are intended to store custom data private to the page or application, for which there are no more appropriate attributes or elements.
+
+<pre><code>&lt;audio controls="controls"&gt;
+	&lt;source src="track1.mp3"type ="audio/mpeg"data-duration="1min5secs" data-tempo="125bpm"data-artist="The Beatles"/&gt;
+&lt;/audio&gt;</code></pre>
+
 DOCTYPE definition
 ------
 
@@ -59,16 +68,6 @@ Designing & developing for multilingual sites
 
 :lang(zh) {font-size: 125%; font-family: helvetica, verdana, sans-serif;}
 </pre></code>
-
-
-HTML data attributes
-------
-
-Custom data attributes are intended to store custom data private to the page or application, for which there are no more appropriate attributes or elements.
-
-<pre><code>&lt;audio controls="controls"&gt;
-	&lt;source src="track1.mp3"type ="audio/mpeg"data-duration="1min5secs" data-tempo="125bpm"data-artist="The Beatles"/&gt;
-&lt;/audio&gt;</code></pre>
 
 Cookies, sessionStorage and localStorage.
 ------
