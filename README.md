@@ -33,7 +33,7 @@ DOCTYPE definition
 
  Including <code>&lt;!DOCTYPE html&gt;</code> will cause browsers that don't presently support HTML5 to enter into standards mode, meaning they'll interpret the long-established parts of HTML while ignoring the new features they don't support. The DOCTYPE must be at the beginning of the HTML document, otherwise quirks mode will be triggered in IE9 or below.
 
-Standards Mode vs Quirks Mode
+Standards mode vs quirks mode
 ------
 
 In quirks mode, layout emulates nonstandard behaviour in Navigator 4 and Internet Explorer 5 for Windows. In almost standards mode (or strict mode), there are only a very small number of quirks implemented. In full standards mode, the behaviour is described by the HTML and CSS specifications.
