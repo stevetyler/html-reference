@@ -123,3 +123,12 @@ Humans.txt is a text file that contains information about the people who created
 Robots.txt is a text file that restricts access to your site by search engine robots that crawl the web. The file can be created using Google Webmaster Tools.
 
 .htaccess is a configuration file for use on web servers running Apache Web Server. The file can be used to alter the configuration of the Apache Web Server software to enable/disable additional functionality and features that the Apache Web Server software has to offer. These facilities include basic redirect functionality, for instance if a 404 file not found error occurs, or for more advanced functions such as content password protection or image hot link prevention. <a title="http://htaccess-guide.com/" href="http://htaccess-guide.com/">http://htaccess-guide.com/</a>
+
+<a name='FOUC'>FOUC and how to avoid it<a/>
+------
+
+Flash of unstyled content. FOUC occurs with certain JavaScript and jQuery implementations where the scripts are used for styling and images, typically content that takes longer or hangs after the page loads.
+
+* Include your link tag(s) to stylesheets within the &lt;head&gt; of your web page documents  
+* Put all scripts at the bottom  
+* Modernizr adds a class="no-js" to the html tag, and then he adds one &lt;script&gt; within the &lt;head&gt; that changes it back to 'js'&nbsp;
