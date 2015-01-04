@@ -17,6 +17,7 @@
 1. [Cookies, sessionStorage and localStorage](#cookies)
 1. [The difference between 'get' & 'post'](#get)
 1. [HTML5 Boilerplate files : humans.txt, 404 page, robots.txt, .htaccess](#boilerplate)
+1. [FOUC and how to avoid it](#FOUC)
 
 <a name='blocks'>Building blocks of HTML5 as an open platform<a/>
 -------
